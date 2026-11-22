@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+  <meta name="theme-color" content="#0f1226">
+  <title>Sudoku – Mini Games</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔢</text></svg>">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="sudoku.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="back" href="../" aria-label="Back">‹</a>
+    <h1>Sudoku</h1>
+    <span class="right" id="timer"></span>
+  </header>
+
+  <main class="container" id="app">
+    <!-- Menu -->
+    <section id="menu" class="stack">
+      <div class="loading">Loading…</div>
+    </section>
+
+    <!-- Game -->
+    <section id="game" class="hidden">
+      <div class="sd-info">
+        <span id="diffLabel"></span>
+        <span>Mistakes: <b id="mistakes">0</b></span>
+      </div>
+      <div id="board" class="sd-board" role="grid" aria-label="Sudoku board"></div>
+      <div class="sd-tools">
+        <button class="tool" id="undoBtn"><span>↶</span>Undo</button>
+        <button class="tool" id="eraseBtn"><span>⌫</span>Erase</button>
+        <button class="tool" id="notesBtn"><span>✎</span>Notes <em id="notesState">off</em></button>
+        <button class="tool" id="hintBtn"><span>💡</span>Hint</button>
+      </div>
+      <div id="pad" class="sd-pad"></div>
+      <button class="btn secondary sd-new" id="newBtn">New game</button>
+    </section>
+  </main>
+
+  <div id="overlay" class="overlay hidden"></div>
+
+  <script src="../js/common.js"></script>
+  <script src="sudoku.js"></script>
+</body>
+</html>

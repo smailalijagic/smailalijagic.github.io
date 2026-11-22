@@ -1,0 +1,9 @@
+{
+  "difficulties": [
+    { "id": "easy",    "label": "Easy",         "emoji": "🟢", "clues": 40, "attempts": 1 },
+    { "id": "medium",  "label": "Medium",       "emoji": "🟡", "clues": 32, "attempts": 2 },
+    { "id": "hard",    "label": "Hard",         "emoji": "🟠", "clues": 27, "attempts": 4 },
+    { "id": "extreme", "label": "Extreme Hard", "emoji": "🔴", "clues": 23, "attempts": 12 }
+  ],
+  "_comment": "clues = how many numbers are given at the start. Every generated puzzle has exactly one solution. attempts = how many tries the generator makes to reach the clue target."
+}

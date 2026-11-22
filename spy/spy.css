@@ -1,0 +1,78 @@
+.spy-hero { text-align: center; padding: 6px 0 4px; }
+.spy-hero .e { font-size: 3rem; }
+.spy-hero p { color: var(--muted); margin: 6px 0 0; font-size: .95rem; }
+
+.rules { font-size: .92rem; color: var(--muted); line-height: 1.45; }
+.rules summary { color: var(--text); font-weight: 700; cursor: pointer; }
+.rules ol { padding-left: 20px; margin: 10px 0 0; }
+
+/* Reveal card */
+.reveal-card {
+  min-height: calc(100dvh - 140px);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 18px; text-align: center;
+}
+.player-num { font-size: 1rem; color: var(--muted); font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+.player-big { font-size: 3.2rem; font-weight: 900; margin: 0; }
+.progress-dots { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; max-width: 320px; }
+.progress-dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--card2); }
+.progress-dots i.done { background: var(--accent); }
+.progress-dots i.now { background: var(--yellow); }
+
+.secret {
+  width: 100%; max-width: 380px;
+  border-radius: 24px; padding: 30px 20px;
+  background: linear-gradient(160deg, #2b3170, #1c2049);
+  box-shadow: 0 16px 40px rgba(0,0,0,.35);
+  animation: pop .25s ease;
+}
+.secret.is-spy { background: linear-gradient(160deg, #6b1426, #2a0a14); }
+.secret .e { font-size: 4rem; line-height: 1.1; }
+.secret .lbl { color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 14px; }
+.secret .val { font-size: 1.8rem; font-weight: 800; margin-top: 2px; }
+.secret .hint { color: var(--muted); font-size: .88rem; margin-top: 16px; line-height: 1.4; }
+
+.hold-btn {
+  width: 190px; height: 190px; border-radius: 50%;
+  border: none; cursor: pointer;
+  background: radial-gradient(circle at 30% 30%, #8f82ff, #5a48e6);
+  color: #fff; font-size: 1.1rem; font-weight: 800;
+  box-shadow: 0 12px 40px rgba(124,108,255,.45);
+}
+.hold-btn:active { transform: scale(.95); }
+
+/* Discussion */
+.timer-big {
+  font-size: 4rem; font-weight: 900; text-align: center;
+  font-variant-numeric: tabular-nums; margin: 4px 0 0;
+}
+.timer-big.low { color: var(--red); animation: pulse 1s infinite; }
+@keyframes pulse { 50% { opacity: .55; } }
+
+.player-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.player-grid button {
+  aspect-ratio: 1; border: none; border-radius: 14px;
+  background: var(--card2); color: var(--text);
+  font-size: 1.25rem; font-weight: 800; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.player-grid button small { font-size: .62rem; color: var(--muted); font-weight: 600; }
+.player-grid button:active { transform: scale(.94); }
+.player-grid button.was-spy { background: var(--red); }
+.player-grid button.was-spy small { color: #ffe1e5; }
+.player-grid button.not-spy { background: #1f5c45; }
+.player-grid button.not-spy small { color: #c9f5e2; }
+
+.places-list { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 12px; }
+.places-list span {
+  font-size: .85rem; padding: 8px; border-radius: 10px; background: var(--card2);
+  cursor: pointer;
+}
+.places-list span.crossed { opacity: .3; text-decoration: line-through; }
+details.card summary { font-weight: 700; cursor: pointer; }
+
+.result-emoji { font-size: 4rem; }
+.modal.spy-yes { background: linear-gradient(160deg, #6b1426, #24081a); }
+.modal.spy-no { background: linear-gradient(160deg, #14523c, #0b241c); }
+.modal.spy-yes p, .modal.spy-no p { color: rgba(255,255,255,.8); }
+.spy-names { font-size: 1.15rem; font-weight: 800; margin: 4px 0 16px; }

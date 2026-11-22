@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f1226">
+  <title>Spy – Mini Games</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕵️</text></svg>">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="spy.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="back" href="../" aria-label="Back">‹</a>
+    <h1>Spy</h1>
+    <span class="right" id="topInfo"></span>
+  </header>
+
+  <main class="container">
+    <!-- Setup -->
+    <section id="setup" class="stack">
+      <div class="loading">Loading…</div>
+    </section>
+
+    <!-- Pass the phone / reveal roles -->
+    <section id="reveal" class="hidden">
+      <div class="reveal-card" id="revealCard"></div>
+    </section>
+
+    <!-- Discussion -->
+    <section id="discuss" class="hidden stack"></section>
+  </main>
+
+  <div id="overlay" class="overlay hidden"></div>
+
+  <script src="../js/common.js"></script>
+  <script src="spy.js"></script>
+</body>
+</html>

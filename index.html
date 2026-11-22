@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f1226">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Mini Games</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .hero { text-align: center; padding: calc(36px + var(--safe-top)) 16px 10px; }
+    .hero h1 { font-size: 2.2rem; margin: 0; letter-spacing: -0.5px; }
+    .hero p { color: var(--muted); margin: 8px 0 0; }
+    .games { display: grid; gap: 14px; }
+    .game-card {
+      display: flex; align-items: center; gap: 16px;
+      padding: 20px; border-radius: 20px;
+      color: #fff; min-height: 110px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+      transition: transform .1s ease;
+    }
+    .game-card:active { transform: scale(.98); }
+    .game-card .icon { font-size: 2.8rem; width: 64px; height: 64px; display: grid; place-items: center;
+      background: rgba(255,255,255,.18); border-radius: 18px; flex-shrink: 0; }
+    .game-card h2 { margin: 0 0 4px; font-size: 1.3rem; }
+    .game-card p { margin: 0; opacity: .9; font-size: .92rem; }
+    .g-sudoku { background: linear-gradient(135deg, #5b6cff, #8f5bff); }
+    .g-spy { background: linear-gradient(135deg, #1f1f2e, #e0435b); }
+    .g-hl { background: linear-gradient(135deg, #ff8a3d, #ff4d8d); }
+    @media (min-width: 700px) { .games { grid-template-columns: 1fr 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>🎮 Mini Games</h1>
+    <p>Quick games for your phone</p>
+  </header>
+  <main class="container">
+    <div class="games">
+      <a class="game-card g-sudoku" href="sudoku/">
+        <div class="icon">🔢</div>
+        <div><h2>Sudoku</h2><p>Easy, medium, hard and extreme hard</p></div>
+      </a>
+      <a class="game-card g-spy" href="spy/">
+        <div class="icon">🕵️</div>
+        <div><h2>Spy</h2><p>Pass the phone. Find the spy before they guess the place.</p></div>
+      </a>
+      <a class="game-card g-hl" href="higher-lower/">
+        <div class="icon">⚖️</div>
+        <div><h2>Higher / Lower</h2><p>Tap the side with the higher value. How long can your streak go?</p></div>
+      </a>
+    </div>
+  </main>
+</body>
+</html>

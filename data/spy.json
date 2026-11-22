@@ -1,0 +1,1404 @@
+{
+ "places": [
+  {
+   "name": "Airplane",
+   "emoji": "✈️",
+   "roles": [
+    "Pilot",
+    "Co-Pilot",
+    "Flight Attendant",
+    "First-Class Passenger",
+    "Economy Passenger",
+    "Air Marshal",
+    "Mechanic",
+    "Nervous Flyer"
+   ]
+  },
+  {
+   "name": "School",
+   "emoji": "🏫",
+   "roles": [
+    "Teacher",
+    "Principal",
+    "Student",
+    "Janitor",
+    "Cafeteria Cook",
+    "School Nurse",
+    "Substitute Teacher",
+    "Parent"
+   ]
+  },
+  {
+   "name": "Bar",
+   "emoji": "🍺",
+   "roles": [
+    "Bartender",
+    "Bouncer",
+    "Regular Customer",
+    "DJ",
+    "Tourist",
+    "Drunk Guest",
+    "Waiter",
+    "Owner"
+   ]
+  },
+  {
+   "name": "Hospital",
+   "emoji": "🏥",
+   "roles": [
+    "Surgeon",
+    "Nurse",
+    "Patient",
+    "Paramedic",
+    "Receptionist",
+    "Visitor",
+    "Anesthesiologist",
+    "Intern"
+   ]
+  },
+  {
+   "name": "Bank",
+   "emoji": "🏦",
+   "roles": [
+    "Bank Teller",
+    "Manager",
+    "Security Guard",
+    "Customer",
+    "Robber",
+    "Loan Officer",
+    "Cleaner",
+    "Armored Truck Driver"
+   ]
+  },
+  {
+   "name": "Beach",
+   "emoji": "🏖️",
+   "roles": [
+    "Lifeguard",
+    "Surfer",
+    "Ice Cream Seller",
+    "Tourist",
+    "Photographer",
+    "Sunbather",
+    "Kid Building Sandcastles",
+    "Beach Volleyball Player"
+   ]
+  },
+  {
+   "name": "Casino",
+   "emoji": "🎰",
+   "roles": [
+    "Dealer",
+    "Gambler",
+    "Bouncer",
+    "Bartender",
+    "Head of Security",
+    "High Roller",
+    "Croupier",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Circus",
+   "emoji": "🎪",
+   "roles": [
+    "Clown",
+    "Acrobat",
+    "Lion Tamer",
+    "Juggler",
+    "Ringmaster",
+    "Visitor",
+    "Magician",
+    "Popcorn Seller"
+   ]
+  },
+  {
+   "name": "Cruise Ship",
+   "emoji": "🚢",
+   "roles": [
+    "Captain",
+    "Cook",
+    "Rich Passenger",
+    "Musician",
+    "Waiter",
+    "Entertainer",
+    "Deckhand",
+    "Honeymooner"
+   ]
+  },
+  {
+   "name": "Movie Theater",
+   "emoji": "🎬",
+   "roles": [
+    "Ticket Seller",
+    "Popcorn Seller",
+    "Projectionist",
+    "Moviegoer",
+    "Usher",
+    "Couple on a Date",
+    "Film Critic",
+    "Cleaner"
+   ]
+  },
+  {
+   "name": "Police Station",
+   "emoji": "🚓",
+   "roles": [
+    "Detective",
+    "Police Officer",
+    "Suspect",
+    "Lawyer",
+    "Journalist",
+    "Witness",
+    "Chief of Police",
+    "Criminal"
+   ]
+  },
+  {
+   "name": "Restaurant",
+   "emoji": "🍽️",
+   "roles": [
+    "Chef",
+    "Waiter",
+    "Customer",
+    "Food Critic",
+    "Dishwasher",
+    "Host",
+    "Sommelier",
+    "Owner"
+   ]
+  },
+  {
+   "name": "Space Station",
+   "emoji": "🛰️",
+   "roles": [
+    "Astronaut",
+    "Commander",
+    "Engineer",
+    "Scientist",
+    "Doctor",
+    "Space Tourist",
+    "Pilot",
+    "Alien"
+   ]
+  },
+  {
+   "name": "Submarine",
+   "emoji": "⚓",
+   "roles": [
+    "Captain",
+    "Sonar Operator",
+    "Navigator",
+    "Cook",
+    "Sailor",
+    "Engineer",
+    "Radio Operator",
+    "Torpedo Officer"
+   ]
+  },
+  {
+   "name": "Supermarket",
+   "emoji": "🛒",
+   "roles": [
+    "Cashier",
+    "Shelf Stocker",
+    "Customer",
+    "Security Guard",
+    "Butcher",
+    "Manager",
+    "Delivery Driver",
+    "Cleaner"
+   ]
+  },
+  {
+   "name": "Theater",
+   "emoji": "🎭",
+   "roles": [
+    "Actor",
+    "Director",
+    "Audience Member",
+    "Prompter",
+    "Costume Designer",
+    "Stagehand",
+    "Ticket Seller",
+    "Critic"
+   ]
+  },
+  {
+   "name": "University",
+   "emoji": "🎓",
+   "roles": [
+    "Professor",
+    "Student",
+    "Dean",
+    "Researcher",
+    "Librarian",
+    "Teaching Assistant",
+    "Exchange Student",
+    "Janitor"
+   ]
+  },
+  {
+   "name": "Military Base",
+   "emoji": "🪖",
+   "roles": [
+    "General",
+    "Soldier",
+    "Sergeant",
+    "Medic",
+    "Cook",
+    "Pilot",
+    "Spy",
+    "Recruit"
+   ]
+  },
+  {
+   "name": "Pirate Ship",
+   "emoji": "🏴‍☠️",
+   "roles": [
+    "Captain",
+    "Cook",
+    "Sailor",
+    "Prisoner",
+    "Cabin Boy",
+    "Navigator",
+    "Cannoneer",
+    "Parrot Owner"
+   ]
+  },
+  {
+   "name": "Polar Research Station",
+   "emoji": "🧊",
+   "roles": [
+    "Scientist",
+    "Expedition Leader",
+    "Doctor",
+    "Meteorologist",
+    "Cook",
+    "Geologist",
+    "Radio Operator",
+    "Photographer"
+   ]
+  },
+  {
+   "name": "Train",
+   "emoji": "🚆",
+   "roles": [
+    "Conductor",
+    "Train Driver",
+    "Passenger",
+    "Ticket Inspector",
+    "Food Cart Attendant",
+    "Commuter",
+    "Backpacker",
+    "Sleeping Passenger"
+   ]
+  },
+  {
+   "name": "Hotel",
+   "emoji": "🏨",
+   "roles": [
+    "Receptionist",
+    "Bellboy",
+    "Guest",
+    "Housekeeper",
+    "Manager",
+    "Concierge",
+    "Room Service Waiter",
+    "Security Guard"
+   ]
+  },
+  {
+   "name": "Spa",
+   "emoji": "💆",
+   "roles": [
+    "Masseur",
+    "Customer",
+    "Receptionist",
+    "Beautician",
+    "Sauna Attendant",
+    "Yoga Teacher",
+    "Manicurist",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Embassy",
+   "emoji": "🏛️",
+   "roles": [
+    "Ambassador",
+    "Diplomat",
+    "Security Guard",
+    "Translator",
+    "Secretary",
+    "Visa Applicant",
+    "Journalist",
+    "Spy"
+   ]
+  },
+  {
+   "name": "Office Party",
+   "emoji": "🥳",
+   "roles": [
+    "Boss",
+    "Intern",
+    "Accountant",
+    "IT Guy",
+    "Secretary",
+    "DJ",
+    "Caterer",
+    "Sales Manager"
+   ]
+  },
+  {
+   "name": "Zoo",
+   "emoji": "🦁",
+   "roles": [
+    "Zookeeper",
+    "Veterinarian",
+    "Visitor",
+    "Child",
+    "Photographer",
+    "Tour Guide",
+    "Ice Cream Seller",
+    "Director"
+   ]
+  },
+  {
+   "name": "Museum",
+   "emoji": "🖼️",
+   "roles": [
+    "Curator",
+    "Tour Guide",
+    "Security Guard",
+    "Visitor",
+    "Art Restorer",
+    "School Class Teacher",
+    "Ticket Seller",
+    "Art Thief"
+   ]
+  },
+  {
+   "name": "Library",
+   "emoji": "📚",
+   "roles": [
+    "Librarian",
+    "Student",
+    "Researcher",
+    "Author",
+    "Reader",
+    "Book Club Member",
+    "Child",
+    "Cleaner"
+   ]
+  },
+  {
+   "name": "Gym",
+   "emoji": "🏋️",
+   "roles": [
+    "Personal Trainer",
+    "Bodybuilder",
+    "Beginner",
+    "Yoga Teacher",
+    "Receptionist",
+    "Cleaner",
+    "Boxer",
+    "Owner"
+   ]
+  },
+  {
+   "name": "Hair Salon",
+   "emoji": "💇",
+   "roles": [
+    "Hairdresser",
+    "Customer",
+    "Colorist",
+    "Apprentice",
+    "Receptionist",
+    "Barber",
+    "Manicurist",
+    "Owner"
+   ]
+  },
+  {
+   "name": "Airport",
+   "emoji": "🛫",
+   "roles": [
+    "Pilot",
+    "Security Officer",
+    "Customs Officer",
+    "Traveler",
+    "Check-In Agent",
+    "Baggage Handler",
+    "Duty-Free Seller",
+    "Air Traffic Controller"
+   ]
+  },
+  {
+   "name": "Fire Station",
+   "emoji": "🚒",
+   "roles": [
+    "Firefighter",
+    "Fire Chief",
+    "Truck Driver",
+    "Paramedic",
+    "Dispatcher",
+    "Trainee",
+    "Visitor",
+    "Dalmatian Owner"
+   ]
+  },
+  {
+   "name": "Farm",
+   "emoji": "🚜",
+   "roles": [
+    "Farmer",
+    "Farmer's Wife",
+    "Farmhand",
+    "Veterinarian",
+    "Tractor Driver",
+    "Shepherd",
+    "Milkmaid",
+    "City Visitor"
+   ]
+  },
+  {
+   "name": "Construction Site",
+   "emoji": "🏗️",
+   "roles": [
+    "Construction Worker",
+    "Crane Operator",
+    "Architect",
+    "Engineer",
+    "Foreman",
+    "Electrician",
+    "Safety Inspector",
+    "Truck Driver"
+   ]
+  },
+  {
+   "name": "Wedding",
+   "emoji": "💒",
+   "roles": [
+    "Bride",
+    "Groom",
+    "Best Man",
+    "Bridesmaid",
+    "Priest",
+    "Photographer",
+    "Wedding Planner",
+    "Drunk Uncle"
+   ]
+  },
+  {
+   "name": "Funeral",
+   "emoji": "⚱️",
+   "roles": [
+    "Widow",
+    "Priest",
+    "Undertaker",
+    "Relative",
+    "Old Friend",
+    "Florist",
+    "Organist",
+    "Lawyer"
+   ]
+  },
+  {
+   "name": "Birthday Party",
+   "emoji": "🎂",
+   "roles": [
+    "Birthday Kid",
+    "Parent",
+    "Clown",
+    "Grandma",
+    "Best Friend",
+    "Magician",
+    "Cake Baker",
+    "Neighbor"
+   ]
+  },
+  {
+   "name": "Concert",
+   "emoji": "🎤",
+   "roles": [
+    "Singer",
+    "Guitarist",
+    "Drummer",
+    "Fan",
+    "Sound Engineer",
+    "Security Guard",
+    "Manager",
+    "Merch Seller"
+   ]
+  },
+  {
+   "name": "Music Festival",
+   "emoji": "🎶",
+   "roles": [
+    "Headliner",
+    "Festival-Goer",
+    "Food Truck Owner",
+    "Security Guard",
+    "Paramedic",
+    "Stage Manager",
+    "Camper",
+    "Influencer"
+   ]
+  },
+  {
+   "name": "Football Stadium",
+   "emoji": "🏟️",
+   "roles": [
+    "Player",
+    "Coach",
+    "Referee",
+    "Fan",
+    "Commentator",
+    "Ball Boy",
+    "Hot Dog Seller",
+    "Goalkeeper"
+   ]
+  },
+  {
+   "name": "Ski Resort",
+   "emoji": "⛷️",
+   "roles": [
+    "Ski Instructor",
+    "Skier",
+    "Snowboarder",
+    "Lift Operator",
+    "Rescue Worker",
+    "Hotel Owner",
+    "Beginner",
+    "Après-Ski Bartender"
+   ]
+  },
+  {
+   "name": "Campsite",
+   "emoji": "⛺",
+   "roles": [
+    "Camper",
+    "Scout Leader",
+    "Park Ranger",
+    "Hiker",
+    "Fisherman",
+    "Kid",
+    "Campsite Owner",
+    "Guitarist"
+   ]
+  },
+  {
+   "name": "Amusement Park",
+   "emoji": "🎢",
+   "roles": [
+    "Ride Operator",
+    "Mascot",
+    "Visitor",
+    "Ticket Seller",
+    "Cotton Candy Seller",
+    "Child",
+    "Technician",
+    "Teenager"
+   ]
+  },
+  {
+   "name": "Aquarium",
+   "emoji": "🐠",
+   "roles": [
+    "Diver",
+    "Marine Biologist",
+    "Visitor",
+    "Tour Guide",
+    "Feeder",
+    "Child",
+    "Photographer",
+    "Ticket Seller"
+   ]
+  },
+  {
+   "name": "Gas Station",
+   "emoji": "⛽",
+   "roles": [
+    "Cashier",
+    "Truck Driver",
+    "Mechanic",
+    "Customer",
+    "Motorcyclist",
+    "Night Shift Worker",
+    "Tourist",
+    "Robber"
+   ]
+  },
+  {
+   "name": "Bakery",
+   "emoji": "🥖",
+   "roles": [
+    "Baker",
+    "Pastry Chef",
+    "Customer",
+    "Cashier",
+    "Apprentice",
+    "Delivery Driver",
+    "Owner",
+    "Early Bird Customer"
+   ]
+  },
+  {
+   "name": "Pizzeria",
+   "emoji": "🍕",
+   "roles": [
+    "Pizzaiolo",
+    "Waiter",
+    "Delivery Driver",
+    "Customer",
+    "Owner",
+    "Dishwasher",
+    "Food Critic",
+    "Family"
+   ]
+  },
+  {
+   "name": "Coffee Shop",
+   "emoji": "☕",
+   "roles": [
+    "Barista",
+    "Student with Laptop",
+    "Customer",
+    "Manager",
+    "Writer",
+    "Couple on a Date",
+    "Freelancer",
+    "Cleaner"
+   ]
+  },
+  {
+   "name": "Nightclub",
+   "emoji": "🪩",
+   "roles": [
+    "DJ",
+    "Bouncer",
+    "Bartender",
+    "Dancer",
+    "VIP Guest",
+    "Party Animal",
+    "Club Owner",
+    "Coat Check Attendant"
+   ]
+  },
+  {
+   "name": "Prison",
+   "emoji": "⛓️",
+   "roles": [
+    "Prisoner",
+    "Guard",
+    "Warden",
+    "Lawyer",
+    "Visitor",
+    "Cook",
+    "Psychologist",
+    "New Inmate"
+   ]
+  },
+  {
+   "name": "Courtroom",
+   "emoji": "⚖️",
+   "roles": [
+    "Judge",
+    "Lawyer",
+    "Defendant",
+    "Witness",
+    "Juror",
+    "Court Reporter",
+    "Prosecutor",
+    "Bailiff"
+   ]
+  },
+  {
+   "name": "Parliament",
+   "emoji": "🏛",
+   "roles": [
+    "Politician",
+    "Minister",
+    "Journalist",
+    "Lobbyist",
+    "Secretary",
+    "Security Guard",
+    "Translator",
+    "Visitor"
+   ]
+  },
+  {
+   "name": "TV Studio",
+   "emoji": "📺",
+   "roles": [
+    "Host",
+    "Cameraman",
+    "Guest Star",
+    "Producer",
+    "Makeup Artist",
+    "Audience Member",
+    "Sound Engineer",
+    "Weather Presenter"
+   ]
+  },
+  {
+   "name": "Radio Station",
+   "emoji": "📻",
+   "roles": [
+    "Radio Host",
+    "DJ",
+    "Caller",
+    "Producer",
+    "Sound Technician",
+    "Guest",
+    "News Reader",
+    "Intern"
+   ]
+  },
+  {
+   "name": "Newspaper Office",
+   "emoji": "📰",
+   "roles": [
+    "Editor",
+    "Journalist",
+    "Photographer",
+    "Intern",
+    "Columnist",
+    "Printer",
+    "Fact-Checker",
+    "Cartoonist"
+   ]
+  },
+  {
+   "name": "Laboratory",
+   "emoji": "🧪",
+   "roles": [
+    "Scientist",
+    "Lab Assistant",
+    "Professor",
+    "Test Subject",
+    "PhD Student",
+    "Safety Officer",
+    "Cleaner",
+    "Investor"
+   ]
+  },
+  {
+   "name": "Dentist's Office",
+   "emoji": "🦷",
+   "roles": [
+    "Dentist",
+    "Patient",
+    "Dental Assistant",
+    "Receptionist",
+    "Scared Child",
+    "Orthodontist",
+    "Hygienist",
+    "Parent"
+   ]
+  },
+  {
+   "name": "Pharmacy",
+   "emoji": "💊",
+   "roles": [
+    "Pharmacist",
+    "Customer",
+    "Cashier",
+    "Delivery Driver",
+    "Pharmacy Assistant",
+    "Doctor",
+    "Elderly Customer",
+    "Sick Patient"
+   ]
+  },
+  {
+   "name": "Post Office",
+   "emoji": "📮",
+   "roles": [
+    "Postal Clerk",
+    "Mail Carrier",
+    "Customer",
+    "Manager",
+    "Package Sorter",
+    "Delivery Driver",
+    "Stamp Collector",
+    "Security Guard"
+   ]
+  },
+  {
+   "name": "Shopping Mall",
+   "emoji": "🛍️",
+   "roles": [
+    "Shop Assistant",
+    "Shopper",
+    "Security Guard",
+    "Cleaner",
+    "Teenager",
+    "Santa Claus",
+    "Food Court Cook",
+    "Mall Manager"
+   ]
+  },
+  {
+   "name": "Fashion Show",
+   "emoji": "👗",
+   "roles": [
+    "Model",
+    "Designer",
+    "Photographer",
+    "Makeup Artist",
+    "Journalist",
+    "Celebrity Guest",
+    "Hairdresser",
+    "Influencer"
+   ]
+  },
+  {
+   "name": "Art Gallery",
+   "emoji": "🎨",
+   "roles": [
+    "Artist",
+    "Gallery Owner",
+    "Art Collector",
+    "Critic",
+    "Visitor",
+    "Waiter",
+    "Security Guard",
+    "Art Student"
+   ]
+  },
+  {
+   "name": "Church",
+   "emoji": "⛪",
+   "roles": [
+    "Priest",
+    "Choir Singer",
+    "Organist",
+    "Churchgoer",
+    "Tourist",
+    "Bride",
+    "Altar Boy",
+    "Sexton"
+   ]
+  },
+  {
+   "name": "Monastery",
+   "emoji": "🧘",
+   "roles": [
+    "Monk",
+    "Abbot",
+    "Novice",
+    "Pilgrim",
+    "Tourist",
+    "Cook",
+    "Gardener",
+    "Bell Ringer"
+   ]
+  },
+  {
+   "name": "Medieval Castle",
+   "emoji": "🏰",
+   "roles": [
+    "King",
+    "Queen",
+    "Knight",
+    "Jester",
+    "Servant",
+    "Blacksmith",
+    "Prisoner",
+    "Royal Advisor"
+   ]
+  },
+  {
+   "name": "Haunted House",
+   "emoji": "👻",
+   "roles": [
+    "Ghost Hunter",
+    "Medium",
+    "Tourist",
+    "Caretaker",
+    "Paranormal Investigator",
+    "Teenager",
+    "Real Estate Agent",
+    "Scared Visitor"
+   ]
+  },
+  {
+   "name": "Jungle Expedition",
+   "emoji": "🌴",
+   "roles": [
+    "Expedition Leader",
+    "Guide",
+    "Botanist",
+    "Photographer",
+    "Cook",
+    "Porter",
+    "Doctor",
+    "Treasure Hunter"
+   ]
+  },
+  {
+   "name": "Desert Oasis",
+   "emoji": "🐪",
+   "roles": [
+    "Camel Driver",
+    "Merchant",
+    "Traveler",
+    "Nomad",
+    "Guide",
+    "Photographer",
+    "Water Seller",
+    "Lost Tourist"
+   ]
+  },
+  {
+   "name": "Volcano Research Camp",
+   "emoji": "🌋",
+   "roles": [
+    "Volcanologist",
+    "Geologist",
+    "Helicopter Pilot",
+    "Photographer",
+    "Journalist",
+    "Guide",
+    "Student",
+    "Rescue Worker"
+   ]
+  },
+  {
+   "name": "Lighthouse",
+   "emoji": "🗼",
+   "roles": [
+    "Lighthouse Keeper",
+    "Sailor",
+    "Tourist",
+    "Photographer",
+    "Fisherman",
+    "Coast Guard",
+    "Painter",
+    "Ghost Story Teller"
+   ]
+  },
+  {
+   "name": "Fishing Boat",
+   "emoji": "🎣",
+   "roles": [
+    "Captain",
+    "Fisherman",
+    "Cook",
+    "Deckhand",
+    "Mechanic",
+    "Trainee",
+    "Fish Buyer",
+    "Seasick Tourist"
+   ]
+  },
+  {
+   "name": "Train Station",
+   "emoji": "🚉",
+   "roles": [
+    "Station Master",
+    "Passenger",
+    "Ticket Seller",
+    "Kiosk Owner",
+    "Conductor",
+    "Cleaner",
+    "Commuter",
+    "Lost Tourist"
+   ]
+  },
+  {
+   "name": "Subway",
+   "emoji": "🚇",
+   "roles": [
+    "Driver",
+    "Commuter",
+    "Musician",
+    "Ticket Inspector",
+    "Pickpocket",
+    "Tourist",
+    "Cleaner",
+    "Student"
+   ]
+  },
+  {
+   "name": "Car Factory",
+   "emoji": "🏭",
+   "roles": [
+    "Assembly Worker",
+    "Engineer",
+    "Factory Manager",
+    "Robot Technician",
+    "Quality Inspector",
+    "Forklift Driver",
+    "Designer",
+    "Test Driver"
+   ]
+  },
+  {
+   "name": "Chocolate Factory",
+   "emoji": "🍫",
+   "roles": [
+    "Chocolatier",
+    "Factory Owner",
+    "Taste Tester",
+    "Packer",
+    "Tour Guide",
+    "Machine Operator",
+    "Visitor",
+    "Child Winner"
+   ]
+  },
+  {
+   "name": "Bowling Alley",
+   "emoji": "🎳",
+   "roles": [
+    "Bowler",
+    "Bartender",
+    "Shoe Rental Clerk",
+    "Mechanic",
+    "League Player",
+    "Kid at a Birthday",
+    "Owner",
+    "Couple on a Date"
+   ]
+  },
+  {
+   "name": "Golf Course",
+   "emoji": "⛳",
+   "roles": [
+    "Golfer",
+    "Caddy",
+    "Golf Instructor",
+    "Greenkeeper",
+    "Club Member",
+    "Businessman",
+    "Bartender",
+    "Beginner"
+   ]
+  },
+  {
+   "name": "Tennis Tournament",
+   "emoji": "🎾",
+   "roles": [
+    "Tennis Player",
+    "Umpire",
+    "Ball Kid",
+    "Coach",
+    "Fan",
+    "Commentator",
+    "Line Judge",
+    "Physiotherapist"
+   ]
+  },
+  {
+   "name": "Swimming Pool",
+   "emoji": "🏊",
+   "roles": [
+    "Lifeguard",
+    "Swimmer",
+    "Swimming Coach",
+    "Child",
+    "Cashier",
+    "Diver",
+    "Sunbather",
+    "Cleaner"
+   ]
+  },
+  {
+   "name": "Water Park",
+   "emoji": "🛝",
+   "roles": [
+    "Lifeguard",
+    "Visitor",
+    "Child",
+    "Ticket Seller",
+    "Snack Bar Worker",
+    "Technician",
+    "Teenager",
+    "Parent"
+   ]
+  },
+  {
+   "name": "Ice Rink",
+   "emoji": "⛸️",
+   "roles": [
+    "Figure Skater",
+    "Hockey Player",
+    "Coach",
+    "Beginner",
+    "Zamboni Driver",
+    "Skate Rental Clerk",
+    "Parent",
+    "Couple"
+   ]
+  },
+  {
+   "name": "Escape Room",
+   "emoji": "🔐",
+   "roles": [
+    "Game Master",
+    "Player",
+    "Actor in Costume",
+    "Team Leader",
+    "Birthday Group",
+    "Owner",
+    "Cleaner",
+    "Puzzle Designer"
+   ]
+  },
+  {
+   "name": "Video Game Studio",
+   "emoji": "🎮",
+   "roles": [
+    "Game Designer",
+    "Programmer",
+    "Artist",
+    "Tester",
+    "Producer",
+    "Sound Designer",
+    "Intern",
+    "CEO"
+   ]
+  },
+  {
+   "name": "Tech Startup",
+   "emoji": "💻",
+   "roles": [
+    "Founder",
+    "Developer",
+    "Designer",
+    "Investor",
+    "Intern",
+    "Product Manager",
+    "Sales Rep",
+    "Office Dog Owner"
+   ]
+  },
+  {
+   "name": "Call Center",
+   "emoji": "☎️",
+   "roles": [
+    "Call Agent",
+    "Supervisor",
+    "Angry Customer",
+    "Trainee",
+    "IT Support",
+    "Team Leader",
+    "Quality Auditor",
+    "Cleaner"
+   ]
+  },
+  {
+   "name": "Retirement Home",
+   "emoji": "👵",
+   "roles": [
+    "Resident",
+    "Nurse",
+    "Caretaker",
+    "Visitor",
+    "Doctor",
+    "Cook",
+    "Activity Organizer",
+    "Grandchild"
+   ]
+  },
+  {
+   "name": "Kindergarten",
+   "emoji": "🧸",
+   "roles": [
+    "Kindergarten Teacher",
+    "Child",
+    "Parent",
+    "Cook",
+    "Assistant Teacher",
+    "Principal",
+    "Janitor",
+    "Crying Toddler"
+   ]
+  },
+  {
+   "name": "Vet Clinic",
+   "emoji": "🐶",
+   "roles": [
+    "Veterinarian",
+    "Vet Assistant",
+    "Pet Owner",
+    "Receptionist",
+    "Dog",
+    "Cat Owner",
+    "Farmer",
+    "Animal Rescuer"
+   ]
+  },
+  {
+   "name": "Pet Shop",
+   "emoji": "🐹",
+   "roles": [
+    "Shop Owner",
+    "Customer",
+    "Child",
+    "Animal Caretaker",
+    "Delivery Driver",
+    "Fish Expert",
+    "Cashier",
+    "Dog Groomer"
+   ]
+  },
+  {
+   "name": "Flower Shop",
+   "emoji": "💐",
+   "roles": [
+    "Florist",
+    "Customer",
+    "Delivery Driver",
+    "Wedding Planner",
+    "Apprentice",
+    "Gardener",
+    "Owner",
+    "Forgetful Husband"
+   ]
+  },
+  {
+   "name": "Bookstore",
+   "emoji": "📖",
+   "roles": [
+    "Bookseller",
+    "Customer",
+    "Author at a Signing",
+    "Student",
+    "Manager",
+    "Cashier",
+    "Book Club Member",
+    "Child"
+   ]
+  },
+  {
+   "name": "Vineyard",
+   "emoji": "🍇",
+   "roles": [
+    "Winemaker",
+    "Grape Picker",
+    "Sommelier",
+    "Tourist",
+    "Owner",
+    "Wine Taster",
+    "Tractor Driver",
+    "Wine Buyer"
+   ]
+  },
+  {
+   "name": "Sushi Bar",
+   "emoji": "🍣",
+   "roles": [
+    "Sushi Chef",
+    "Waiter",
+    "Customer",
+    "Apprentice",
+    "Owner",
+    "Fish Supplier",
+    "Tourist",
+    "Food Blogger"
+   ]
+  },
+  {
+   "name": "Cooking Show",
+   "emoji": "👨‍🍳",
+   "roles": [
+    "Celebrity Chef",
+    "Contestant",
+    "Judge",
+    "Cameraman",
+    "Producer",
+    "Audience Member",
+    "Food Stylist",
+    "Host"
+   ]
+  },
+  {
+   "name": "Olympic Games",
+   "emoji": "🥇",
+   "roles": [
+    "Athlete",
+    "Coach",
+    "Referee",
+    "Journalist",
+    "Spectator",
+    "Volunteer",
+    "Doping Inspector",
+    "Medal Presenter"
+   ]
+  },
+  {
+   "name": "Chess Tournament",
+   "emoji": "♟️",
+   "roles": [
+    "Grandmaster",
+    "Arbiter",
+    "Spectator",
+    "Commentator",
+    "Young Prodigy",
+    "Coach",
+    "Organizer",
+    "Journalist"
+   ]
+  },
+  {
+   "name": "Mountain Hut",
+   "emoji": "🏔️",
+   "roles": [
+    "Hut Keeper",
+    "Mountaineer",
+    "Hiker",
+    "Mountain Guide",
+    "Cook",
+    "Rescue Pilot",
+    "Photographer",
+    "Lost Tourist"
+   ]
+  },
+  {
+   "name": "Mars Colony",
+   "emoji": "🔴",
+   "roles": [
+    "Commander",
+    "Botanist",
+    "Engineer",
+    "Doctor",
+    "Geologist",
+    "Robot Technician",
+    "Colonist",
+    "Psychologist"
+   ]
+  },
+  {
+   "name": "Moon Base",
+   "emoji": "🌕",
+   "roles": [
+    "Astronaut",
+    "Base Commander",
+    "Engineer",
+    "Scientist",
+    "Communications Officer",
+    "Doctor",
+    "Space Tourist",
+    "Miner"
+   ]
+  },
+  {
+   "name": "Cheese Dairy",
+   "emoji": "🧀",
+   "roles": [
+    "Cheesemaker",
+    "Farmer",
+    "Apprentice",
+    "Tourist",
+    "Shop Assistant",
+    "Delivery Driver",
+    "Cheese Taster",
+    "Owner"
+   ]
+  }
+ ]
+}

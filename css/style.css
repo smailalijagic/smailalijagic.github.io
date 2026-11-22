@@ -1,0 +1,166 @@
+/* ===== Shared styles (mobile-first) ===== */
+:root {
+  --bg: #0f1226;
+  --bg2: #171b36;
+  --card: #1f2447;
+  --card2: #282e57;
+  --text: #f2f3ff;
+  --muted: #a3a8d4;
+  --accent: #7c6cff;
+  --accent2: #ff6c9d;
+  --green: #2fd18b;
+  --red: #ff5a6a;
+  --yellow: #ffc94d;
+  --radius: 16px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.hidden { display: none !important; }
+
+/* ----- Top bar ----- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: calc(10px + var(--safe-top)) 14px 10px;
+  background: rgba(15, 18, 38, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.topbar h1 { font-size: 1.15rem; margin: 0; flex: 1; }
+.topbar .back {
+  width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border-radius: 12px;
+  background: var(--card);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.topbar .right { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 600; }
+
+.container {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 16px 16px calc(24px + var(--safe-bottom));
+}
+
+/* ----- Buttons ----- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 52px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 14px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.08s ease, filter 0.15s ease;
+}
+.btn:active { transform: scale(0.97); }
+.btn:disabled { opacity: 0.45; }
+.btn.secondary { background: var(--card2); }
+.btn.danger { background: var(--red); }
+.btn.success { background: var(--green); color: #06291a; }
+.btn.pink { background: var(--accent2); }
+
+.stack { display: flex; flex-direction: column; gap: 12px; }
+.row { display: flex; gap: 10px; }
+.row > * { flex: 1; }
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 18px;
+}
+.muted { color: var(--muted); }
+.center { text-align: center; }
+
+/* ----- Overlay / modal ----- */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(5, 6, 18, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  animation: fade 0.2s ease;
+}
+.modal {
+  width: 100%;
+  max-width: 420px;
+  background: var(--bg2);
+  border-radius: 22px;
+  padding: 26px 22px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: pop 0.25s ease;
+}
+.modal h2 { margin: 0 0 8px; font-size: 1.6rem; }
+.modal p { margin: 6px 0 18px; color: var(--muted); }
+.modal .big-emoji { font-size: 3.2rem; margin-bottom: 6px; }
+
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop { from { transform: scale(0.9); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+/* ----- Stepper (number input) ----- */
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+.stepper .label { font-weight: 600; }
+.stepper .label small { display: block; color: var(--muted); font-weight: 400; font-size: 0.8rem; }
+.stepper .controls { display: flex; align-items: center; gap: 10px; }
+.stepper button {
+  width: 44px; height: 44px;
+  border-radius: 12px;
+  border: none;
+  background: var(--card2);
+  color: var(--text);
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.stepper button:active { transform: scale(0.93); }
+.stepper .value { min-width: 34px; text-align: center; font-size: 1.3rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+
+.loading { text-align: center; padding: 40px 0; color: var(--muted); }
